@@ -1,0 +1,59 @@
+div.navigation
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url();
+    background-size:cover;
+}
+
+div.li
+{
+    float: left;
+}
+
+div.li a
+{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.li a:hover
+{
+    background-color: #ffffff;
+}
+
+.active
+{
+    background-color:rgb(255, 255, 255);
+}
+
+body
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: monospace;
+    background-color:antiquewhite;
+}
+
+h1 
+{
+    background-color: transparent;
+    text-align: center;
+}
+    
+h2 
+{
+    background-color: transparent;
+    text-align: center;
+}
+    
+footer
+{
+    text-align: end;
+    margin-top: 50px;
+}
