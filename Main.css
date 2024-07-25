@@ -6,6 +6,7 @@ div.navigation
     overflow: hidden;
     background-image: url();
     background-size:cover;
+    background-color: black;
 }
 
 div.li
@@ -16,7 +17,7 @@ div.li
 div.li a
 {
     display: block;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,12 +25,12 @@ div.li a
 
 div.li a:hover
 {
-    background-color: #ffffff;
+    background-color:rgb(4, 212, 126);
 }
 
 .active
 {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(4, 212, 126);
 }
 
 body
@@ -37,7 +38,7 @@ body
     margin-left: 150px;
     margin-right: 150px;
     font-family: monospace;
-    background-color:antiquewhite;
+    background-color:#ffffff;
 }
 
 h1 
